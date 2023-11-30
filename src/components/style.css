@@ -1,0 +1,80 @@
+.titleSection {
+  font-size: 50px;
+  display: block;
+  margin: 50px auto;
+  width: 200px;
+}
+
+.containerCards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 30%;
+  height: fit-content;
+  position: relative;
+}
+
+.filmImg {
+  width: 100%;
+}
+
+.filmTitle {
+ width: 100%;
+ text-align: center;
+ display: block;
+ position: absolute;
+ top: 0;
+ background-color: rgba(0, 0, 0, 0.446);
+ color: aliceblue;
+ margin-top: 0;
+ font-size: 20px;
+ height: 25px;
+}
+
+.filmDate {
+  width: 100%;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 25px;
+  background-color: rgba(0, 0, 0, 0.446);
+  color: aliceblue;
+  margin-top: 0;
+  font-size: 15px;
+  height: 20px;
+}
+
+.card-body-stars {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.446);
+}
+
+.isNanCount {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+  padding: 3px 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.446);
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.itemStar {
+ list-style: none;
+}
+
+svg {
+  width: 30px;
+}
